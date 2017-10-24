@@ -70,6 +70,7 @@ type
     FInsertObj_NewObj: TObject;
     FDataSetLinkContainer: IioBSAToDataSetLinkContainer;
     FDeleteAfterCancel: Boolean;
+    FioConnectionName: String;
     // TypeName
     procedure SetTypeName(const AValue:String);
     function GetTypeName: String;
@@ -105,6 +106,9 @@ type
     // AutoLoadData
     procedure SetAutoLoadData(const Value: Boolean);
     function GetAutoLoadData: Boolean;
+    // Connection Name
+    procedure SetioConnectionName(const Value: String);
+    function GetioConnectionName: String;
   protected
     // =========================================================================
     // Part for the support of the IioNotifiableBindSource interfaces (Added by iORM)
@@ -159,6 +163,7 @@ type
     property ioAutoLoadData:Boolean read GetAutoLoadData write SetAutoLoadData;
     property ioAsync:Boolean read GetIoAsync write SetIoAsync;
     property ioAutoPersist:Boolean read GetioAutoPersist write SetioAutoPersist;
+    property ioConnectionName: String read GetioConnectionName write SetioConnectionName;
     property ioOnNotify:TioBSANotificationEvent read FonNotify write FonNotify;
     property ioWhere:IioWhere read GetIoWhere write SetIoWhere;
     property ioWhereDetailsFromDetailAdapters: Boolean read GetioWhereDetailsFromDetailAdapters write SetioWhereDetailsFromDetailAdapters;
@@ -410,7 +415,6 @@ var
   AValue: TValue;
   ALazyLoadableObj: IioLazyLoadable;
 begin
-  ADetailObj := nil;
   // Check parameter, if the MasterObject is not assigned
   //  then close the BSA
   if not Assigned(AMasterObj) then
@@ -424,7 +428,7 @@ begin
 //  if not AValue.IsEmpty
 //    then ADetailObj := TList<TObject>(AValue.AsObject);
 
-
+  AObj := nil;
   if not AValue.IsEmpty then
     if FMasterProperty.IsInterface then
       AObj := TObject(AValue.AsInterface)
@@ -485,7 +489,6 @@ end;
 
 function TioActiveListBindSourceAdapter.NewDetailBindSourceAdapter(const AOwner:TComponent; const AMasterPropertyName:String; const AWhere:IioWhere): TBindSourceAdapter;
 begin
-  Result := nil;
   // Return the requested DetailBindSourceAdapter and set the current master object
   Result := FDetailAdaptersContainer.NewBindSourceAdapter(AOwner, FTypeName, AMasterPropertyName, AWhere);
   FDetailAdaptersContainer.SetMasterObject(Self.Current);
@@ -494,6 +497,11 @@ end;
 function TioActiveListBindSourceAdapter.GetioAutoPersist: Boolean;
 begin
   Result := FAutoPersist;
+end;
+
+function TioActiveListBindSourceAdapter.GetioConnectionName: String;
+begin
+  result := FioConnectionName;
 end;
 
 function TioActiveListBindSourceAdapter.GetIoViewDataType: TioViewDataType;
@@ -699,6 +707,11 @@ end;
 procedure TioActiveListBindSourceAdapter.SetioAutoPersist(const Value: Boolean);
 begin
   FAutoPersist := Value;
+end;
+
+procedure TioActiveListBindSourceAdapter.SetioConnectionName(const Value: String);
+begin
+  FioConnectionName := Value;
 end;
 
 procedure TioActiveListBindSourceAdapter.SetIoWhere(const Value: IioWhere);

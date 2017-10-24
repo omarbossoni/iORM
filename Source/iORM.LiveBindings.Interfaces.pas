@@ -132,6 +132,10 @@ type
     // Current property
     function GetCurrent: TObject;
     property Current: TObject read GetCurrent;
+    // Connection name
+    procedure SetioConnectionName(const Value: String);
+    function GetioConnectionName : String;
+    property ioConnectionName : String read GetioConnectionName write SetioConnectionName;
     // Async property
     procedure SetIoAsync(const Value: Boolean);
     function GetIoAsync: Boolean;

@@ -357,6 +357,7 @@ var
   LIndexList: TioIndexList;
   LAutoCreateDB: Boolean;
 begin
+  LIndexList := nil;
   try
     // Prop Init
     LTableName := Typ.MetaclassType.ClassName.Substring(1);  // Elimina il primo carattere (di solito la T)
@@ -367,7 +368,7 @@ begin
     LMapMode := ioProperties;
     LIndexList := nil;
     LAutoCreateDB := True;
-    LIndexList := nil;
+
     // Check attributes
     for LAttr in Typ.GetAttributes do
     begin

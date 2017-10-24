@@ -306,7 +306,6 @@ end;
 
 function TioPrototypeBindSource.DataObject: TObject;
 begin
-  Result := nil;
   Result := Self.GetActiveBindSourceAdapter.DataObject;
 end;
 

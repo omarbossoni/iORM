@@ -1,0 +1,1390 @@
+﻿[Closed Files]
+File_0=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.DetailAdaptersContainer.pas',0,1,1,14,66,0,0,,
+File_1=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ModelPresenter.DEsignTime.pas',0,1,40,38,51,0,0,,
+File_2=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.Components.Common.pas',0,1,37,1,1,0,0,,
+File_3=TSourceModule,'C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjectsMappers.pas',0,1,1946,1,1975,0,0,,
+File_4=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.DuckTyped.List.pas',0,1,148,21,162,0,0,,
+File_5=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Commands.pas',0,1,787,1,794,0,0,,
+File_6=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewContextProviderContainer.pas',0,1,148,1,180,0,0,,
+File_7=TSourceModule,'C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckPropField.pas',0,1,25,1,46,0,0,,
+File_8=TSourceModule,'C:\Delphi\Tools\Iorm Fork\Source\iORM.pas',0,1,248,1,1,0,0,,
+
+[Modules]
+Module0=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveListBindSourceAdapter.pas
+Module1=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Interfaces.pas
+Module2=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ModelPresenter.pas
+Module3=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Properties.pas
+Module4=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Table.pas
+Module5=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.PrototypeBindSource.pas
+Module6=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Interfaces.pas
+Module7=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Factory.pas
+Module8=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckDictionary.pas
+Module9=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.Engine.pas
+Module10=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.DataSet.Base.pas
+Module11=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.ConnectionDef.pas
+Module12=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Factory.pas
+Module13=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceObjectBindSourceAdapter.pas
+Module14=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceListBindSourceAdapter.pas
+Module15=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveObjectBindSourceAdapter.pas
+Module16=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.CommonBSAPersistence.pas
+Module17=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Container.pas
+Module18=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.SqLite.SqlGenerator.pas
+Module19=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.pas
+Module20=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Factory.pas
+Module21=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SQL.Destination.pas
+Module22=C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.SqlItems.pas
+Module23=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SqLite.SqlDataConverter.pas
+Module24=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Query.pas
+Module25=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Factory.pas
+Module26=C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.REST.pas
+Module27=C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.DB.pas
+Module28=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ViewModelBridge.pas
+Module29=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewModelBase.pas
+Module30=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.ObjectMaker.pas
+Module31=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckList.pas
+Module32=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.pas
+Module33=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.ConnectionContainer.pas
+Module34=C:\Delphi\Tools\Iorm Fork\Source\iORM.DependencyInjection.pas
+Module35=C:\Delphi\Tools\Iorm Fork\Source\iORM.Rtti.Utilities.pas
+Module36=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewRegisterItem.pas
+Module37=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Interfaces.pas
+Module38=C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.pas
+Module39=default.htm
+Count=40
+EditWindowCount=1
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveListBindSourceAdapter.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Interfaces.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ModelPresenter.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Properties.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Table.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.PrototypeBindSource.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Interfaces.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Factory.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckDictionary.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.Engine.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.DataSet.Base.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.ConnectionDef.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Factory.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceObjectBindSourceAdapter.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceListBindSourceAdapter.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveObjectBindSourceAdapter.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.CommonBSAPersistence.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Container.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.SqLite.SqlGenerator.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Factory.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SQL.Destination.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.SqlItems.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SqLite.SqlDataConverter.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Query.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Factory.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.REST.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.DB.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ViewModelBridge.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewModelBase.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.ObjectMaker.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckList.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.ConnectionContainer.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DependencyInjection.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Rtti.Utilities.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewRegisterItem.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Interfaces.pas]
+ModuleType=TSourceModule
+
+[C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.pas]
+ModuleType=TSourceModule
+
+[default.htm]
+ModuleType=TURLModule
+
+[EditWindow0]
+ViewCount=40
+CurrentEditView=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveListBindSourceAdapter.pas
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
+View12=12
+View13=13
+View14=14
+View15=15
+View16=16
+View17=17
+View18=18
+View19=19
+View20=20
+View21=21
+View22=22
+View23=23
+View24=24
+View25=25
+View26=26
+View27=27
+View28=28
+View29=29
+View30=30
+View31=31
+View32=32
+View33=33
+View34=34
+View35=35
+View36=36
+View37=37
+View38=38
+View39=39
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=10000
+Height=9035
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=10000
+ClientHeight=9035
+DockedToMainForm=1
+BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
+TopPanelSize=0
+LeftPanelSize=1894
+LeftPanelClients=PropertyInspector,DockSite3
+LeftPanelData=000008000101000000003C100000000000000166070000000000000100000000530E000009000000446F636B53697465330100000000DD1C00001100000050726F7065727479496E73706563746F72FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=1178
+BottomPanelClients=DockSite1,MessageView
+BottomPanelData=0000080001020100000009000000446F636B53697465317245000000000000029A040000000000000100000000724500000F0000004D65737361676556696577466F726DFFFFFFFF
+BottomMiddlePanelSize=0
+BottomMiddlePanelClients=DockSite0,GraphDrawingModel
+BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E67566965779A1D00000000000002F206000000000000FFFFFFFF
+TabDockRightClients=DockSite4=0,DockSite2=1
+
+[View0]
+CustomEditViewType=TWelcomePageView
+WelcomePageURL=bds:/default.htm
+
+[View1]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ModelPresenter.pas
+CursorX=45
+CursorY=16
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ModelPresenter.pas
+
+[View2]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Table.pas
+CursorX=1
+CursorY=125
+TopLine=113
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Table.pas
+
+[View3]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Factory.pas
+CursorX=21
+CursorY=360
+TopLine=354
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Factory.pas
+
+[View4]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Properties.pas
+CursorX=1
+CursorY=166
+TopLine=154
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Properties.pas
+
+[View5]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Interfaces.pas
+CursorX=78
+CursorY=132
+TopLine=121
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Interfaces.pas
+
+[View6]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveListBindSourceAdapter.pas
+CursorX=5
+CursorY=166
+TopLine=157
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveListBindSourceAdapter.pas
+
+[View7]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveObjectBindSourceAdapter.pas
+CursorX=6
+CursorY=706
+TopLine=696
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveObjectBindSourceAdapter.pas
+
+[View8]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceObjectBindSourceAdapter.pas
+CursorX=4
+CursorY=707
+TopLine=690
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceObjectBindSourceAdapter.pas
+
+[View9]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Factory.pas
+CursorX=19
+CursorY=161
+TopLine=146
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.Factory.pas
+
+[View10]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.ConnectionDef.pas
+CursorX=1
+CursorY=82
+TopLine=70
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.ConnectionDef.pas
+
+[View11]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceListBindSourceAdapter.pas
+CursorX=4
+CursorY=751
+TopLine=739
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.ActiveInterfaceListBindSourceAdapter.pas
+
+[View12]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Interfaces.pas
+CursorX=1
+CursorY=170
+TopLine=159
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Interfaces.pas
+
+[View13]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.DataSet.Base.pas
+CursorX=1
+CursorY=461
+TopLine=442
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Components.DataSet.Base.pas
+
+[View14]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.Engine.pas
+CursorX=25
+CursorY=657
+TopLine=645
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.Engine.pas
+
+[View15]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckDictionary.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckDictionary.pas
+
+[View16]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.CommonBSAPersistence.pas
+CursorX=4
+CursorY=169
+TopLine=157
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.CommonBSAPersistence.pas
+
+[View17]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.pas
+CursorX=1
+CursorY=218
+TopLine=204
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.pas
+
+[View18]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Interfaces.pas
+CursorX=6
+CursorY=254
+TopLine=236
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Interfaces.pas
+
+[View19]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewRegisterItem.pas
+CursorX=1
+CursorY=25
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewRegisterItem.pas
+
+[View20]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.PrototypeBindSource.pas
+CursorX=4
+CursorY=561
+TopLine=549
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.LiveBindings.PrototypeBindSource.pas
+
+[View21]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Rtti.Utilities.pas
+CursorX=27
+CursorY=223
+TopLine=211
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Rtti.Utilities.pas
+
+[View22]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DependencyInjection.pas
+CursorX=1
+CursorY=222
+TopLine=208
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DependencyInjection.pas
+
+[View23]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.ConnectionContainer.pas
+CursorX=1
+CursorY=444
+TopLine=432
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.ConnectionContainer.pas
+
+[View24]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.pas
+CursorX=1
+CursorY=40
+TopLine=28
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.pas
+
+[View25]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckList.pas
+CursorX=21
+CursorY=274
+TopLine=257
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\ExtLibs\ObjMapper\ObjMapper.DuckList.pas
+
+[View26]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.ObjectMaker.pas
+CursorX=15
+CursorY=67
+TopLine=86
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.ObjectMaker.pas
+
+[View27]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewModelBase.pas
+CursorX=1
+CursorY=60
+TopLine=48
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.ViewModelBase.pas
+
+[View28]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ViewModelBridge.pas
+CursorX=1
+CursorY=23
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.MVVM.Components.ViewModelBridge.pas
+
+[View29]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.DB.pas
+CursorX=1
+CursorY=672
+TopLine=661
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.DB.pas
+
+[View30]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.REST.pas
+CursorX=1
+CursorY=53
+TopLine=41
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Strategy.REST.pas
+
+[View31]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Factory.pas
+CursorX=133
+CursorY=71
+TopLine=59
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.ObjectsForge.Factory.pas
+
+[View32]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Query.pas
+CursorX=25
+CursorY=347
+TopLine=336
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Query.pas
+
+[View33]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SqLite.SqlDataConverter.pas
+CursorX=1
+CursorY=69
+TopLine=57
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SqLite.SqlDataConverter.pas
+
+[View34]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.SqlItems.pas
+CursorX=1
+CursorY=70
+TopLine=58
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Where.SqlItems.pas
+
+[View35]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SQL.Destination.pas
+CursorX=2
+CursorY=104
+TopLine=94
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.SQL.Destination.pas
+
+[View36]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Factory.pas
+CursorX=1
+CursorY=128
+TopLine=116
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.Factory.pas
+
+[View37]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.pas
+CursorX=1
+CursorY=384
+TopLine=420
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.pas
+
+[View38]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.SqLite.SqlGenerator.pas
+CursorX=1
+CursorY=223
+TopLine=211
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.DB.DBCreator.SqLite.SqlGenerator.pas
+
+[View39]
+CustomEditViewType=TEditView
+Module=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Container.pas
+CursorX=1
+CursorY=180
+TopLine=183
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Delphi\Tools\Iorm Fork\Source\iORM.Context.Container.pas
+
+[UndockedDesigner]
+Count=0
+
+[Watches]
+Count=0
+
+[WatchWindow]
+WatchColumnWidth=120
+WatchShowColumnHeaders=1
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=3825
+Height=1128
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1128
+TBDockHeight=209
+LRDockWidth=13600
+Dockable=1
+StayOnTop=0
+
+[Breakpoints]
+Count=0
+
+[EmbarcaderoWin32Debugger_AddressBreakpoints]
+Count=0
+
+[EmbarcaderoWin64Debugger_AddressBreakpoints]
+Count=0
+
+[EmbarcaderoAndroidDebugger_AddressBreakpoints]
+Count=0
+
+[EmbarcaderoIOS64DeviceDebugger_AddressBreakpoints]
+Count=0
+
+[EmbarcaderoIOS32DeviceDebugger_AddressBreakpoints]
+Count=0
+
+[EmbarcaderoOSXDebugger_AddressBreakpoints]
+Count=0
+
+[Main Window]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=0
+State=2
+Left=144
+Top=279
+Width=8931
+Height=8523
+MaxLeft=-6
+MaxTop=-12
+MaxWidth=8931
+MaxHeight=8523
+ClientWidth=10000
+ClientHeight=9733
+BottomPanelSize=8633
+BottomPanelClients=EditWindow0
+BottomPanelData=0000080000000000000000000000000000000000000000000000000100000000000000000C0000004564697457696E646F775F30FFFFFFFF
+
+[ProjectManager]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2456
+Height=7151
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2456
+ClientHeight=7151
+TBDockHeight=5895
+LRDockWidth=2350
+Dockable=1
+StayOnTop=0
+
+[MessageView]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=18
+Width=10000
+Height=1023
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=10000
+ClientHeight=1023
+TBDockHeight=1023
+LRDockWidth=2769
+Dockable=1
+StayOnTop=0
+
+[ToolForm]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2456
+Height=2256
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2456
+ClientHeight=2256
+TBDockHeight=7151
+LRDockWidth=2000
+Dockable=1
+StayOnTop=0
+
+[ClipboardHistory]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=0
+State=0
+Left=0
+Top=0
+Width=1525
+Height=5186
+MaxLeft=-6
+MaxTop=-12
+ClientWidth=1425
+ClientHeight=4733
+TBDockHeight=5186
+LRDockWidth=1525
+Dockable=1
+StayOnTop=0
+
+[ProjectStatistics]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=0
+State=0
+Left=0
+Top=0
+Width=1650
+Height=5965
+MaxLeft=-6
+MaxTop=-12
+ClientWidth=1550
+ClientHeight=5512
+TBDockHeight=5965
+LRDockWidth=1650
+Dockable=1
+StayOnTop=0
+
+[PropertyInspector]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=348
+Width=1894
+Height=3686
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1894
+ClientHeight=3686
+TBDockHeight=9012
+LRDockWidth=1894
+Dockable=1
+StayOnTop=0
+SplitPos=111
+
+[frmDesignPreview]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2000
+Height=6872
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2000
+ClientHeight=6872
+TBDockHeight=5953
+LRDockWidth=2512
+Dockable=1
+StayOnTop=0
+
+[TFileExplorerForm]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=-1124
+Top=-133
+Width=2844
+Height=6209
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2844
+ClientHeight=6209
+TBDockHeight=6209
+LRDockWidth=2844
+Dockable=1
+StayOnTop=0
+
+[TemplateView]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=-1124
+Top=-133
+Width=275
+Height=360
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=275
+ClientHeight=360
+TBDockHeight=360
+LRDockWidth=275
+Dockable=1
+StayOnTop=0
+Name=120
+Description=334
+filter=1
+
+[DebugLogView]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=3825
+Height=1128
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1128
+TBDockHeight=407
+LRDockWidth=4950
+Dockable=1
+StayOnTop=0
+
+[ThreadStatusWindow]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=3825
+Height=1128
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1128
+TBDockHeight=209
+LRDockWidth=7406
+Dockable=1
+StayOnTop=0
+Column0Width=145
+Column1Width=100
+Column2Width=115
+Column3Width=250
+
+[LocalVarsWindow]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=3825
+Height=1128
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1128
+TBDockHeight=1535
+LRDockWidth=3481
+Dockable=1
+StayOnTop=0
+
+[CallStackWindow]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=3825
+Height=1128
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1128
+TBDockHeight=2070
+LRDockWidth=3481
+Dockable=1
+StayOnTop=0
+
+[PatchForm]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=0
+State=0
+Left=0
+Top=0
+Width=3569
+Height=2965
+MaxLeft=-6
+MaxTop=-12
+ClientWidth=3469
+ClientHeight=2512
+TBDockHeight=2965
+LRDockWidth=3569
+Dockable=1
+StayOnTop=0
+
+[FindReferencsForm]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2338
+Height=1186
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2338
+ClientHeight=1186
+TBDockHeight=2314
+LRDockWidth=2825
+Dockable=1
+StayOnTop=0
+
+[RefactoringForm]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2338
+Height=1186
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2338
+ClientHeight=1186
+TBDockHeight=3209
+LRDockWidth=2825
+Dockable=1
+StayOnTop=0
+
+[ToDo List]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2338
+Height=1186
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2338
+ClientHeight=1186
+TBDockHeight=1151
+LRDockWidth=3675
+Dockable=1
+StayOnTop=0
+Column0Width=314
+Column1Width=30
+Column2Width=150
+Column3Width=172
+Column4Width=129
+SortOrder=4
+ShowHints=1
+ShowChecked=1
+
+[DataExplorerContainer]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2000
+Height=6872
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2000
+ClientHeight=6872
+TBDockHeight=4884
+LRDockWidth=7150
+Dockable=1
+StayOnTop=0
+
+[GraphDrawingModel]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2856
+Height=3209
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2856
+ClientHeight=3209
+TBDockHeight=3209
+LRDockWidth=2856
+Dockable=1
+StayOnTop=0
+
+[ClassBrowserTool]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=-31
+Top=-133
+Width=1850
+Height=3140
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1850
+ClientHeight=3140
+TBDockHeight=3140
+LRDockWidth=1850
+Dockable=1
+StayOnTop=0
+
+[MetricsView]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2338
+Height=1186
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2338
+ClientHeight=1186
+TBDockHeight=4837
+LRDockWidth=3562
+Dockable=1
+StayOnTop=0
+
+[QAView]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2338
+Height=1186
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2338
+ClientHeight=1186
+TBDockHeight=4837
+LRDockWidth=3562
+Dockable=1
+StayOnTop=0
+
+[BreakpointWindow]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=3825
+Height=1128
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1128
+TBDockHeight=1547
+LRDockWidth=8744
+Dockable=1
+StayOnTop=0
+Column0Width=200
+Column1Width=75
+Column2Width=200
+Column3Width=200
+Column4Width=200
+Column5Width=75
+Column6Width=75
+
+[StructureView]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=1894
+Height=3581
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1894
+ClientHeight=3581
+TBDockHeight=3674
+LRDockWidth=1894
+Dockable=1
+StayOnTop=0
+
+[ModelViewTool]
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=0
+Width=2000
+Height=6872
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2000
+ClientHeight=6872
+TBDockHeight=4884
+LRDockWidth=5306
+Dockable=1
+StayOnTop=0
+
+[BorlandEditorCodeExplorer@EditWindow0]
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=0
+State=0
+Left=0
+Top=0
+Width=1825
+Height=6174
+MaxLeft=-6
+MaxTop=-12
+ClientWidth=1725
+ClientHeight=5721
+TBDockHeight=6174
+LRDockWidth=1825
+Dockable=1
+StayOnTop=0
+
+[DockHosts]
+DockHostCount=5
+
+[DockSite0]
+HostDockSite=DockBottomCenterPanel
+DockSiteType=1
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=8
+Top=8
+Width=2338
+Height=1477
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2338
+ClientHeight=1477
+TBDockHeight=1477
+LRDockWidth=2338
+Dockable=1
+StayOnTop=0
+TabPosition=1
+ActiveTabID=RefactoringForm
+TabDockClients=RefactoringForm,FindReferencsForm,ToDo List,MetricsView,QAView
+
+[DockSite1]
+HostDockSite=DockBottomPanel
+DockSiteType=1
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=8
+Top=8
+Width=3825
+Height=1419
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=3825
+ClientHeight=1419
+TBDockHeight=1419
+LRDockWidth=3825
+Dockable=1
+StayOnTop=0
+TabPosition=1
+ActiveTabID=DebugLogView
+TabDockClients=DebugLogView,BreakpointWindow,ThreadStatusWindow,CallStackWindow,WatchWindow,LocalVarsWindow
+
+[DockSite2]
+HostDockSite=RightTabDock
+DockSiteType=1
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=4
+Top=24
+Width=2456
+Height=7442
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2456
+ClientHeight=7442
+TBDockHeight=9012
+LRDockWidth=2456
+Dockable=1
+StayOnTop=0
+TabPosition=1
+ActiveTabID=ProjectManager
+TabDockClients=ProjectManager,ModelViewTool,DataExplorerContainer,frmDesignPreview,TFileExplorerForm
+
+[DockSite3]
+HostDockSite=DockLeftPanel
+DockSiteType=1
+PercentageSizes=1
+Create=1
+Visible=1
+Docked=1
+State=0
+Left=0
+Top=18
+Width=1894
+Height=3581
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1894
+ClientHeight=3581
+TBDockHeight=9012
+LRDockWidth=1894
+Dockable=1
+StayOnTop=0
+TabPosition=1
+ActiveTabID=StructureView
+TabDockClients=StructureView,ClassBrowserTool
+
+[DockSite4]
+HostDockSite=RightTabDock
+DockSiteType=1
+PercentageSizes=1
+Create=1
+Visible=0
+Docked=1
+State=0
+Left=0
+Top=439
+Width=2456
+Height=2256
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=2456
+ClientHeight=2256
+TBDockHeight=9012
+LRDockWidth=2456
+Dockable=1
+StayOnTop=0
+TabPosition=1
+ActiveTabID=ToolForm
+TabDockClients=ToolForm,TemplateView
+
+[ActiveProject]
+ActiveProject=2
+

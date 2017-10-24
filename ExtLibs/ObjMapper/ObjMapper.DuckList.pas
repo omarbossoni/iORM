@@ -270,6 +270,8 @@ begin
       Result := FGetItemMethod.Invoke(FObjectAsDuck, [index]).AsObject;
     tkInterface:
       Result := FGetItemMethod.Invoke(FObjectAsDuck, [index]).AsInterface as TObject;
+    else
+      result := nil;
   end;
 // --------- End: Maurizio Del Magno ----------
 end;

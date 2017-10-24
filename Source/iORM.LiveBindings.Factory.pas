@@ -157,6 +157,8 @@ begin
       LBindSourceAdapter := io.Load(ATypeName, ATypeAlias)._Where(AWhere).ToActiveObjectBindSourceAdapter(AOwner, AAutoLoadData);
     dtList:
       LBindSourceAdapter := io.Load(ATypeName, ATypeAlias)._Where(AWhere).ToActiveListBindSourceAdapter(AOwner, AAutoLoadData);
+  else
+    result := nil;
   end;
   if not Supports(LBindSourceAdapter, IioActiveBindSourceAdapter, Result) then
     raise EioException.Create(Self.ClassName + '.GetBSAByTypeName: "IioActiveBindSourceAdapter" interface not implemented by object.');

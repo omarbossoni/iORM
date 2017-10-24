@@ -604,6 +604,8 @@ begin
   LDictionaryTypeName     := '';
   LKeyQualifiedTypeName   := '';
   LValueQualifiedTypeName := '';
+  LValueJSONValue         := Nil;
+  LKeyJSONValue           := nil;
   // If AUseClassName is true then get the "items" JSONArray containing che containing the list items
   //  else AJSONValue is the JSONArray containing che containing the list items
   if AParams.TypeAnnotations then
@@ -795,7 +797,6 @@ begin
   if not Assigned(AJSONValue) then
     Exit(TValue.Empty);
   // Defaults
-  LValueRTTIType          := nil;
   LListTypeName           := '';
   LValueQualifiedTypeName := '';
   // If AUseClassName is true then get the "items" JSONArray containing che containing the list items
@@ -1020,7 +1021,6 @@ begin
     AObject := TRTTIUtils.CreateObject(lJClassName.Value);
   end;
 
-  JValue := nil;
   _type := GetCtx.GetType(AObject.ClassInfo);
 
   try
@@ -1241,7 +1241,6 @@ end;
 class function omEngine.QualifiedTypeNameToRttiType(
   const AQualifiedTypeName: String): TRttiType;
 begin
-  Result := nil;
   Result := GetCtx.FindType(AQualifiedTypeName);
 end;
 
@@ -1307,18 +1306,13 @@ end;
 
 class function omEngine.SerializeClass(const AValue: TValue; const APropField: TRttiNamedObject; const AParams: IomParams): TJSONValue;
 var
-  AChildObj, Obj: TObject;
-  list: IWrappedList;
+  AChildObj: TObject;
   wObj: IWrappedObject;
-  Arr: TJSONArray;
-  ResultObj: TJSONObject;
   _attrser: MapperSerializeAsString;
   SerEnc: TEncoding;
   sr: TStringStream;
   SS: TStringStream;
   MS: TMemoryStream;
-  EncBytes: TBytes;
-  I: Integer;
 begin
   AChildObj := AValue.AsObject;
   if Assigned(AChildObj) then
@@ -1793,7 +1787,6 @@ end;
 
 class function omEngine.TypeInfoToRttiType(const ATypeInfo: Pointer): TRttiType;
 begin
-  Result := nil;
   Result := GetCtx.GetType(ATypeInfo);
 end;
 

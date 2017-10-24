@@ -446,6 +446,7 @@ function TioBSADataSet.CreateBlobStream(Field: TField;
 var
   LProperty: IioContextProperty;
 begin
+  result := nil;
   // Get Property, Object, Value
   LProperty := FMap.GetProperties.GetPropertyByName(Field.FieldName);
   // Create the right blob stream by DataType
@@ -457,8 +458,6 @@ begin
       Result := TioStreamableObjBlobStream.Create(Field as TGraphicField, Mode);
     TFieldType.ftBlob:
       Result := TioStreamableObjBlobStream.Create(Field as TBlobField, Mode);
-  else
-    result := nil;
   end;
 end;
 

@@ -39,10 +39,12 @@ type
     // Questo è un riferimento di tipo interfaccia e serve solo per
     //  mantenere in vita l'oggetto
     FDummyInterfaceRef: IInterface;
+    FConnectionNane: String;
     // Methods
     procedure DoNotify(ANotification:IioBSANotification);
     procedure WhereOnChangeEventHandler(Sender:TObject);
     procedure SetAutoLoadData(const Value: Boolean);
+
   protected
     procedure Loaded; override;
     // AsDefault
@@ -77,6 +79,8 @@ type
     procedure SetAsync(const Value: Boolean);
     // AutoPersist
     procedure SetAutoPersist(const Value: Boolean);
+    //
+    procedure SetConnectionNane(const Value: String);
   public
     constructor Create(AOwner: TComponent); override;
     destructor Destroy; override;
@@ -128,6 +132,7 @@ type
     property AutoLoadData:Boolean read FAutoLoadData write SetAutoLoadData;
     property AutoPersist:Boolean read FAutoPersist write SetAutoPersist;
     property AutoRefreshOnNotification:TioAutoRefreshType read FAutoRefreshOnNotification write FAutoRefreshOnNotification;
+    property ConnectionNane : String read FConnectionNane write SetConnectionNane;
     property MasterPresenter:TioModelPresenter read FMasterPresenter write FMasterPresenter;
     property MasterPropertyName:String read FMasterPropertyName write FMasterPropertyName;
     property OrderBy:String read FOrderBy Write SetOrderBy;
@@ -310,7 +315,6 @@ end;
 
 function TioModelPresenter.DataObject: TObject;
 begin
-  Result := nil;
   Result := BindSourceAdapter.DataObject;
 end;
 
@@ -535,6 +539,15 @@ begin
   FBindSourceAdapter.ioWhere := FWhere;
   // Register itself for notifications from BindSourceAdapter
   FBindSourceAdapter.SetBindSource(Self);
+end;
+
+procedure TioModelPresenter.SetConnectionNane(const Value: String);
+begin
+  FConnectionNane := Value;
+  // If the adapter is created and is an ActiveBindSourceAdapter then
+  //  update the where of the adapter also
+  if CheckAdapter then
+    FBindSourceAdapter.ioConnectionName := Value;
 end;
 
 procedure TioModelPresenter.SetBindSourceAdapter(

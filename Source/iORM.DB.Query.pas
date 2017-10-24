@@ -311,7 +311,6 @@ var
   AParam: TioParam;
   AJSONValue: TJSONValue;
 begin
-  AObj := nil;
   // -------------------------------------------------------------------------------------------------------------------------------
   // Normal property type (NO BLOB)
   // -------------------------------------------------------------------------------------------------------------------------------
@@ -344,6 +343,8 @@ begin
         AJSONValue := TioObjectMakerFactory.GetObjectMapper.SerializeEmbeddedList(AObj);
       ioRTEmbeddedHasOne:
         AJSONValue := TioObjectMakerFactory.GetObjectMapper.SerializeEmbeddedObject(AObj);
+    else
+      AJSONValue := nil;
     end;
     try
       AParam.AsString := AJSONValue.ToString;

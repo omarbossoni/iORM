@@ -64,7 +64,7 @@ var
   AObj: TObject;
 begin
   inherited;
-  result := nil;
+  AObj := nil;
   // DataObject creation if not already exists
   if not Assigned(AContext.DataObject) then
     AContext.DataObject := Self.CreateObjectByClassRef(AContext.GetClassRef);

@@ -96,6 +96,7 @@ var
   LOwnsObjects: Boolean;
   LExecute: TioCommonBSAPersistenceThreadExecute;
   LOnTerminate: TioCommonBSAPersistenceThreadOnTerminate;
+  LConnectionName : String;
 begin
   // Copy values into local variables
   LTypeName := AActiveBindSourceAdapter.ioTypeName;
@@ -103,17 +104,18 @@ begin
   LTargetClass := AActiveBindSourceAdapter.DataObject.ClassType;
   LWhere := AActiveBindSourceAdapter.ioWhere;
   LOwnsObjects := AActiveBindSourceAdapter.ioOwnsObjects;
+  LConnectionName := AActiveBindSourceAdapter.ioConnectionName;
   // Set Execute anonimous methods
   case AActiveBindSourceAdapter.ioViewDataType of
     TioViewDataType.dtSingle:
       LExecute := function: TObject
       begin
-        Result := io.Load(LTypeName, LTypeAlias)._Where(LWhere).ToObject;
+        Result := io.Load(LTypeName, LTypeAlias).ConnectionName(LConnectionName)._Where(LWhere).ToObject;
       end;
     TioViewDataType.dtList:
       LExecute := function: TObject
       begin
-        Result := io.Load(LTypeName, LTypeAlias)._Where(LWhere).ToList(LTargetClass);
+        Result := io.Load(LTypeName, LTypeAlias)._Where(LWhere).ConnectionName(LConnectionName).ToList(LTargetClass);
       end;
   else
     raise EioException.Create('TioCommonBSAPersistence.Load: wrong ViewDataType.');

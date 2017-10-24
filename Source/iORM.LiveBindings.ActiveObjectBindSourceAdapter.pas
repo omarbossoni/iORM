@@ -63,6 +63,7 @@ type
     FDetailAdaptersContainer: IioDetailBindSourceAdaptersContainer;
     FBindSource: IioNotifiableBindSource;
     FonNotify: TioBSANotificationEvent;
+    FioConnectionName: String;
 //    FNaturalBSA_MasterBindSourceAdapter: IioActiveBindSourceAdapter;  *** NB: Code presente (commented) in the unit body ***
     FDataSetLinkContainer: IioBSAToDataSetLinkContainer;
     FDeleteAfterCancel: Boolean;
@@ -101,6 +102,9 @@ type
     // AutoLoadData
     procedure SetAutoLoadData(const Value: Boolean);
     function GetAutoLoadData: Boolean;
+    // Connection Name
+    procedure SetioConnectionName(const Value: String);
+    function GetioConnectionName: String;
   protected
     // =========================================================================
     // Part for the support of the IioNotifiableBindSource interfaces (Added by iORM)
@@ -154,6 +158,7 @@ type
     property ioAutoLoadData:Boolean read GetAutoLoadData write SetAutoLoadData;
     property ioAsync:Boolean read GetIoAsync write SetIoAsync;
     property ioAutoPersist:Boolean read GetioAutoPersist write SetioAutoPersist;
+    property ioConnectionName: String read GetioConnectionName write SetioConnectionName;
     property ioOnNotify:TioBSANotificationEvent read FonNotify write FonNotify;
     property ioWhere:IioWhere read GetIoWhere write SetIoWhere;
     property ioWhereDetailsFromDetailAdapters: Boolean read GetioWhereDetailsFromDetailAdapters write SetioWhereDetailsFromDetailAdapters;
@@ -443,6 +448,11 @@ begin
   Result := FAutoPersist;
 end;
 
+function TioActiveObjectBindSourceAdapter.GetioConnectionName: String;
+begin
+  Result := FioConnectionName;
+end;
+
 function TioActiveObjectBindSourceAdapter.GetIoViewDataType: TioViewDataType;
 begin
   Result := VIEW_DATA_TYPE;
@@ -630,6 +640,11 @@ end;
 procedure TioActiveObjectBindSourceAdapter.SetioAutoPersist(const Value: Boolean);
 begin
   FAutoPersist := Value;
+end;
+
+procedure TioActiveObjectBindSourceAdapter.SetioConnectionName(const Value: String);
+begin
+  FioConnectionName := Value;
 end;
 
 procedure TioActiveObjectBindSourceAdapter.SetIoWhere(const Value: IioWhere);

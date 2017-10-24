@@ -64,6 +64,7 @@ type
     FDetailAdaptersContainer: IioDetailBindSourceAdaptersContainer;
     FBindSource: IioNotifiableBindSource;
     FonNotify: TioBSANotificationEvent;
+    FioConnectionName: String;
 //    FNaturalBSA_MasterBindSourceAdapter: IioActiveBindSourceAdapter;
     FDataSetLinkContainer: IioBSAToDataSetLinkContainer;
     FDeleteAfterCancel: Boolean;
@@ -102,6 +103,9 @@ type
     // AutoLoadData
     procedure SetAutoLoadData(const Value: Boolean);
     function GetAutoLoadData: Boolean;
+    // Connection Name
+    procedure SetioConnectionName(const Value: String);
+    function GetioConnectionName: String;
   protected
     // =========================================================================
     // Part for the support of the IioNotifiableBindSource interfaces (Added by iORM)
@@ -154,6 +158,7 @@ type
     property ioAutoLoadData:Boolean read GetAutoLoadData write SetAutoLoadData;
     property ioAsync:Boolean read GetIoAsync write SetIoAsync;
     property ioAutoPersist:Boolean read GetioAutoPersist write SetioAutoPersist;
+    property ioConnectionName: String read GetioConnectionName write SetioConnectionName;
     property ioOnNotify:TioBSANotificationEvent read FonNotify write FonNotify;
     property ioWhere:IioWhere read GetIoWhere write SetIoWhere;
     property ioWhereDetailsFromDetailAdapters: Boolean read GetioWhereDetailsFromDetailAdapters write SetioWhereDetailsFromDetailAdapters;
@@ -437,6 +442,11 @@ begin
   Result := FAutoPersist;
 end;
 
+function TioActiveInterfaceObjectBindSourceAdapter.GetioConnectionName: String;
+begin
+  Result := FioConnectionName;
+end;
+
 function TioActiveInterfaceObjectBindSourceAdapter.GetIoViewDataType: TioViewDataType;
 begin
   Result := VIEW_DATA_TYPE;
@@ -622,6 +632,11 @@ end;
 procedure TioActiveInterfaceObjectBindSourceAdapter.SetioAutoPersist(const Value: Boolean);
 begin
   FAutoPersist := Value;
+end;
+
+procedure TioActiveInterfaceObjectBindSourceAdapter.SetioConnectionName(const Value: String);
+begin
+  FioConnectionName := Value;
 end;
 
 procedure TioActiveInterfaceObjectBindSourceAdapter.SetIoWhere(

@@ -66,7 +66,6 @@ uses
 
 class function TioSqlDataConverterSqLite.FloatToSQL(const AFloat: Extended): String;
 var
-  Sign, IntegerPart, DecimalPart: String;
   FormatSettings: TFormatSettings;
 begin
   FormatSettings := TFormatSettings.Create;

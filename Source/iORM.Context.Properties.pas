@@ -290,7 +290,6 @@ var
   AValue: TValue;
 begin
   // Init
-  Result := nil;
   // Extract the child related object
   AValue := Self.GetValue(Instance);
   Result := TioRttiUtilities.TValueToObject(AValue, True);

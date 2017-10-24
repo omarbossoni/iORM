@@ -230,6 +230,7 @@ var
     end;
 begin
   inherited;
+  result := nil;
   // Resolve the type and alias
   AResolvedTypeList := TioResolverFactory.GetResolver(rsByDependencyInjection).Resolve(AWhere.TypeName, AWhere.TypeAlias, rmAll);
   // Get the transaction collection
@@ -668,8 +669,6 @@ begin
 end;
 
 class procedure TioStrategyDB.UpdateObject(const AContext: IioContext);
-var
-  AQuery: IioQuery;
 begin
   inherited;
   // Create and execute query

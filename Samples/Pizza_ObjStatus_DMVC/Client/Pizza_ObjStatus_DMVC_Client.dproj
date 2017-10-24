@@ -297,6 +297,7 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_Keys>CompanyName=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(ModuleName);FileDescription=$(ModuleName);ProductName=$(ModuleName)</VerInfo_Keys>
         <DCC_UnitSearchPath>C:\Users\Maurizio Del Magno\Documents\Projects\IupOrm\Source;C:\Users\Maurizio Del Magno\Documents\Projects\IupOrm\Packages\DelphiXE6\$(Platform)\$(Config);C:\Users\Maurizio Del Magno\Documents\Projects\IupOrm\Packages\DelphiXE6\Win32\Debug;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <VerInfo_Locale>1033</VerInfo_Locale>
