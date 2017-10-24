@@ -378,13 +378,7 @@ var
   SS: TStringStream;
   sw: TStreamWriter;
   MS: TMemoryStream;
-  LClassName: string;
-  Arr: TJSONArray;
-  list: IWrappedList;
-  I: Integer;
   wObj: IWrappedObject;
-  MapperClassTypeAttribute: MapperItemsClassType;
-  ClassRef: TClass;
 begin
   if not Assigned(AJSONValue) then   // JSONKey not present
   begin
@@ -487,7 +481,6 @@ var
   LParams: IomParams;
   LDone: Boolean;
   LValueType: TRttiType;
-  LJSONObj: TJSONObject;
   LQualifiedName: String;
   LExistingValue: TValue;
   LTypeJSONValue: TJSONValue;
@@ -1632,15 +1625,13 @@ class function omEngine.SerializeObject(const AObject: TObject; const AParams: I
 var
   PropField: System.Rtti.TRttiNamedObject;
   PropsFields: TArray<System.Rtti.TRttiNamedObject>;
-  ThereAreIgnoredProperties: boolean;
-  DoNotSerializeThis: boolean;
+//  ThereAreIgnoredProperties: boolean;
   KeyName: String;
   _type: TRttiType;
-  I: Integer;
   JValue: TJSONValue;
   Value: TValue;
 begin
-  ThereAreIgnoredProperties := Length(AParams.IgnoredProperties) > 0;
+//  ThereAreIgnoredProperties := Length(AParams.IgnoredProperties) > 0;
   Result := TJSONBox.Create;
   try
     _type := GetCtx.GetType(AObject.ClassInfo);
@@ -1733,6 +1724,7 @@ var
   ts: TTimeStamp;
   LQualifiedTypeName: String;
 begin
+  result := nil;
 //  LQualifiedTypeName := TDuckPropField.QualifiedName(APropField);
   LQualifiedTypeName := GetQualifiedTypeName(AValue.TypeInfo);
   // TTimeStamp

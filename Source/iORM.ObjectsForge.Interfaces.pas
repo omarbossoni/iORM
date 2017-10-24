@@ -407,7 +407,6 @@ class function TioObjectMakerIntf.LoadPropertyHasMany(AContext:IioContext;
   AQuery: IioQuery; AProperty: IioContextProperty): TObject;
 var
   ALazyLoadableObj: IioLazyLoadable;
-  AResolvedTypeList: IioResolvedTypeList;
   LWhere, LDetailWhere: IioWhere;
 begin
   // Check if the result child relation object is alreaady created in the master object (by constructor); if it isn't

@@ -457,6 +457,8 @@ begin
       Result := TioStreamableObjBlobStream.Create(Field as TGraphicField, Mode);
     TFieldType.ftBlob:
       Result := TioStreamableObjBlobStream.Create(Field as TBlobField, Mode);
+  else
+    result := nil;
   end;
 end;
 
@@ -853,8 +855,6 @@ begin
 end;
 
 procedure TioBSADataSet.InternalLoadCurrentRecord(Buffer: TRecordBuffer);
-var
-  LBookmarkFlag: TBookmarkFlag;
 begin
   // Put the current record index in the record buffer
   PInteger(Buffer)^ := fCurrentRecord;

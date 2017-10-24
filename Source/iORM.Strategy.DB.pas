@@ -77,7 +77,7 @@ type
 implementation
 
 uses
-  iORM.Context.Factory, iORM.CommonTypes, iORM.Attributes,
+  iORM.Context.Factory, iORM.CommonTypes, iORM.Attributes, Data.Db,
   iORM.DB.ConnectionContainer, iORM.DB.Factory, iORM.DuckTyped.Interfaces,
   iORM.DuckTyped.Factory, iORM.Resolver.Interfaces, iORM.ObjectsForge.Factory,
   iORM.LazyLoad.Factory, iORM.Resolver.Factory, iORM.Where.Factory,
@@ -156,7 +156,6 @@ class procedure TioStrategyDB.InsertObject(const AContext: IioContext;
   const ABlindInsert: Boolean);
 var
   AQuery: IioQuery;
-  NextID: Integer;
 begin
   inherited;
   // -----------------------------------------------------------

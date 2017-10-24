@@ -151,6 +151,7 @@ class function TioLiveBindingsFactory.GetBSAByTypeName(const ATypeName,
 var
   LBindSourceAdapter: TBindSourceAdapter;
 begin
+  result := nil;
   case AViewDataType of
     dtSingle:
       LBindSourceAdapter := io.Load(ATypeName, ATypeAlias)._Where(AWhere).ToActiveObjectBindSourceAdapter(AOwner, AAutoLoadData);
@@ -174,6 +175,8 @@ begin
     dtList:   Result := io.Load(ATypeName, ATypeAlias)
                         ._Where(AWhere)
                         .ToActiveListBindSourceAdapter(AOwner, AAutoLoadData);
+  else
+    result := nil;
   end;
 end;
 

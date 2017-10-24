@@ -1120,6 +1120,7 @@ function TioDependencyInjectionLocator.ShowCurrent: TComponent;
 var
   LLocator: TioDependencyInjectionLocator;
 begin
+  result := nil;
   // Check the bind source adapter
   if not FForEachModelPresenter.CheckAdapter then
     raise EioException.Create(Self.ClassName, 'ShowCurrent', 'ActiveBindSourceAdapter not assigned in the FForEachModelPresenter.');

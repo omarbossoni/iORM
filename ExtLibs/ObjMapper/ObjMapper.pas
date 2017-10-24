@@ -327,6 +327,7 @@ var
   ResultValue: TValue;
   LTypeJSONValue: TJSONValue;
 begin
+  result := nil;
   try
     // Init
     LRttiType := nil;
@@ -461,8 +462,6 @@ begin
 end;
 
 function TomValueDestination.ToJSON: TJSONValue;
-var
-  LRttiType: TRttiType;
 begin
   try
     Result := omEngine.SerializePropField(FValue, nil, FParams);

@@ -433,7 +433,6 @@ end;
 function TioProperty.IsSqlRequestCompliant(
   ASqlRequestType: TioSqlRequestType): Boolean;
 begin
-  Result := False;
   case ASqlRequestType of
     ioSelect: Result := (FReadWrite <= iorwReadWrite);
     ioInsert:

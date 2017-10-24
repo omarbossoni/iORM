@@ -367,6 +367,7 @@ begin
     LMapMode := ioProperties;
     LIndexList := nil;
     LAutoCreateDB := True;
+    LIndexList := nil;
     // Check attributes
     for LAttr in Typ.GetAttributes do
     begin
